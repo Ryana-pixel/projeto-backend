@@ -20,7 +20,7 @@ const PORT: number = 8081;
 // a partir da classe Player, que foi importada do arquivo Player.ts
 let player1: Player = new Player("Hero", 100, 5);
 
-// rota GET para obter informações do jogador
+// rota GET para obter informações do jogador 
 // quando o usuário acessar a rota "/player", o servidor responderá com os dados do jogador
 // a função de callback recebe dois parâmetros: req (requisição) e res (resposta)
 
